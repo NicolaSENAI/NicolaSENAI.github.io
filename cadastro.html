@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="icone.ico">
+        
+       <title>Padaria Turca</title>
+    </head>
+
+<body>
+    <div class="logo">
+        <center><a href="main.html"><img src="logoo.jpg" alt="site-logo"></a></center>
+    </div>
+    <hr>
+
+    <div class="Cadastro">
+        <center>
+            <fieldset>
+                <legend><h2>Informações pessoais</h2></legend>
+                <label>Nome: </label>
+                <input type="text" name="nome" id="name" required />
+
+                <label>Idade: </label>
+                <input type="number" name="numero" required />
+
+                <br>
+                <br>
+
+                <label>Email: </label>
+                <input type="text" name="email" id="email" required />
+
+                <br>    
+                <br>
+
+                <label>Celular:</label>
+                <label> (012)</label>
+                <input type="number" name="numero telefone" id="numero telefone" />
+
+                <br>
+                <br>
+                
+                <label>Imagem do seu usuário</label>
+                <form action=" " method="POST" enctype="multipart/form-data">
+                <input type="file" name="foto" accept="image/*">
+        </fieldset>
+
+        <fieldset>
+            <legend><h2>VIP</h2></legend>
+            <h3>Deseja se tornar membro VIP do nosso site com acesso a todos os tipos
+                de pães por apenas R$5 p/mês?
+            </h3>
+            <label><input type="radio" name="sim" required>Sim</label>
+            <label><input type="radio" name="nao" required>Não</label>
+        </fieldset>
+            
+        <fieldset>
+            <legend><h2>Classificação</h2></legend>
+            <label>Se você pudesse dar uma nota de 0 a 10 para nosso site, qual seria?</label>
+            
+            <br>
+            <br>
+
+            <select name="nota" id="nota">
+                <option>Selecione...</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+        </fieldset>
+
+
+        <input type="submit" id="btEnviar" value="Enviar" /> 
+        <input type="reset" id="btLimpar" value="Limpar" />
+
+        <br>
+        <br>
+
+        <h2><a href="main.html">Voltar para a Página Principal</a></h2>
+
+    </center>
+    </div>
+
+</body>
